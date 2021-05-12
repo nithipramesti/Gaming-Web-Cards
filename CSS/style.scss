@@ -1,0 +1,62 @@
+body{
+    font-family: sans-serif;
+    background-color: #EFEFEF;
+
+    main{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        width: 1000px;
+        margin: 50px auto;
+    }
+
+    .card-3{
+        grid-column: 1/4;
+        grid-row: span 1;
+        display: flex;
+        background-color: #fff;
+
+        .card-left{
+            position: relative;
+            padding: 0 100px 0 30px;
+            width: 50%;
+            
+            
+
+            .main-text{
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                width: 330px; //NOT RIGHT!! //////////////////////////
+
+                .category{
+                    text-transform: uppercase;
+                    font-size: 13px;
+                    font-weight: 600;
+                    color: rgb(241, 180, 10);
+                }
+
+            }
+
+            .info{
+                font-size: 13px;
+                color: gray;
+                display: flex;
+                position: absolute;
+                bottom: 15px;
+
+                div{
+                    margin-right: 20px;
+                }
+            }
+        }
+
+        .card-right{
+            background-image: url('/Images/CoverArt-GTAV.png');
+            background-size: cover;
+            background-position: center;
+            height: 450px;
+            width: 50%;
+        }
+    }
+}
