@@ -14,7 +14,7 @@ body main {
   margin: 50px auto;
 }
 
-body .card-3 {
+body main .card-3 {
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
   grid-column: 1/4;
@@ -25,13 +25,13 @@ body .card-3 {
   background-color: #fff;
 }
 
-body .card-3 .card-left {
+body main .card-3 .card-left {
   position: relative;
   padding: 0 100px 0 30px;
   width: 50%;
 }
 
-body .card-3 .card-left .main-text {
+body main .card-3 .card-left .main-text {
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -39,14 +39,14 @@ body .card-3 .card-left .main-text {
   width: 330px;
 }
 
-body .card-3 .card-left .main-text .category {
+body main .card-3 .card-left .main-text .category {
   text-transform: uppercase;
   font-size: 13px;
   font-weight: 600;
   color: #f1b40a;
 }
 
-body .card-3 .card-left .info {
+body main .card-3 .card-left .info {
   font-size: 13px;
   color: gray;
   display: -webkit-box;
@@ -56,15 +56,25 @@ body .card-3 .card-left .info {
   bottom: 15px;
 }
 
-body .card-3 .card-left .info div {
+body main .card-3 .card-left .info div {
   margin-right: 20px;
 }
 
-body .card-3 .card-right {
+body main .card-3 .card-right {
   background-image: url("/Images/CoverArt-GTAV.png");
   background-size: cover;
   background-position: center;
   height: 450px;
   width: 50%;
+}
+
+body main .card-1 {
+  grid-column: span 1;
+}
+
+body main .row-2 {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
+  grid-row: 4/5;
 }
 /*# sourceMappingURL=style.css.map */
