@@ -11,7 +11,7 @@ body{
 
         .card-3{
             grid-column: 1/4;
-            grid-row: span 1;
+            grid-row: 2/3;
             display: flex;
             background-color: #fff;
     
@@ -63,7 +63,7 @@ body{
             grid-column: span 1;
         }
 
-        .row-2{
+        .row-3{
             grid-row: 3/5;
         }
     }

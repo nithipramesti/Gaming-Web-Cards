@@ -18,7 +18,9 @@ body main .card-3 {
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
   grid-column: 1/4;
-  grid-row: span 1;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -72,7 +74,7 @@ body main .card-1 {
   grid-column: span 1;
 }
 
-body main .row-2 {
+body main .row-3 {
   -ms-grid-row: 3;
   -ms-grid-row-span: 2;
   grid-row: 3/5;
