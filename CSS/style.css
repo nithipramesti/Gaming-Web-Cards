@@ -79,4 +79,9 @@ body main .row-3 {
   -ms-grid-row-span: 2;
   grid-row: 3/5;
 }
+
+body main .card-temporary {
+  display: block;
+  width: 500px;
+}
 /*# sourceMappingURL=style.css.map */
